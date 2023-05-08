@@ -9,9 +9,9 @@
 [REDCap](https://www.redcap.ihrp.uic.edu/) (Research Electronic Data
 Capture) is a nationwide online survey and database. To visualize any
 project involving a randomized controlled trial (RCT) in REDCap,
-researchers can use the R Shiny application called **Recruitment
-Tracker**. Recruitment Tracker aims to establish a free, interactive,
-and web-based dashboard
+researchers can use the R Shiny application called Recruitment Tracker.
+Recruitment Tracker aims to establish a free, interactive, and web-based
+dashboard
 [(https://uicccts.shinyapps.io/REDCap_Tracking/)](https://uicccts.shinyapps.io/REDCap_Tracking/).
 The platform R Shiny allows users to interact with and visualize the
 data according to their needs. The main function of this dashboard is to
@@ -29,14 +29,21 @@ downloaded.
 
 The workflow of the modules of this interactive online dashboard is
 illustrated below. Recruitment Tracker displays the dataset in four
-modules of interest for users: “[Verification &
-Setting](#module-1.-verification-setting),” “[Project
-Summary](#module-2.-project-summary),” “[Recruitment
-Tracking](#module-3.-recruitment-tracking),” and “[Descriptive
-Statistics](#module-4.-descriptive-statistics).” Recruitment Tracker was
-made publicly available in December 2022. Advanced R users may request
-the R Shiny code to adapt the code for their specific visualization of R
-Shiny apps.
+modules of interest for users: “Verification & Setting,” “Project
+Summary,” “Recruitment Tracking,” and “Descriptive Statistics.”
+Recruitment Tracker was made publicly available in December 2022.
+Advanced R users may request the R Shiny code to adapt the code for
+their specific visualization of R Shiny apps.
 
 For detailed instructions for using Recruitment Tracker, see the [user
 guide](REDCapRecruitmentTracker_UserManual.pdf).
+
+<div class="figure">
+
+<img src="images/recruitment_tracker_workflow.png" alt="Workflow and modules of the interactive web-based dashboard for REDCap Recruitment Tracker R Shiny App" width="937" />
+<p class="caption">
+Workflow and modules of the interactive web-based dashboard for REDCap
+Recruitment Tracker R Shiny App
+</p>
+
+</div>
